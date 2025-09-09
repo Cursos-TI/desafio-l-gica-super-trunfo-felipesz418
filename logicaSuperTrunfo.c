@@ -16,8 +16,8 @@ int main() {
     // utilize o código do primeiro desafio
 
     // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
+    printf("Digite o código da cidade: ");
+     scanf("%s", codigo);
     // 
     // (Repita para cada propriedade)
 

@@ -10,7 +10,6 @@ int main(){
    float pib;
    short int numeroDePontosTuristicos;
 
-    
    //Variavies para cadastro segunda carta
    char estado2[20] = "estado2";
    char codigoCarta2[10] = "cod2";
@@ -54,4 +53,21 @@ int main(){
    printf("Insira os pontos túrisitcos da cidade para a segunda carta:\n");
    scanf("%hi", &numeroDePontosTuristicos2);
 
-}
+   //Exibicao de dados primeira carta
+   printf("Estado: %s\n", estado);
+   printf("Código da carta: %s\n", codigoCarta);
+   printf("Nome da cidade: %s\n", nomeDaCidade);
+   printf("População: %u\n", populacao);
+   printf("Área(km2): %.2f\n", area);
+   printf("Pib: %.2f\n", pib);
+   printf("Pontos Túristicos: %hi\n", numeroDePontosTuristicos);
+
+   //Exibição de dados segunda carta
+   printf("Estado: %s\n", estado2);
+   printf("Código da carta: %s\n", codigoCarta2);
+   printf("Nome da cidade: %s\n", nomeDaCidade2);
+   printf("População: %u\n", populacao2);
+   printf("Área(km2): %.2f\n", area2);
+   printf("Pib: %.2f\n", pib2);
+   printf("Pontos Túristicos: %hi\n", numeroDePontosTuristicos2);
+} 
